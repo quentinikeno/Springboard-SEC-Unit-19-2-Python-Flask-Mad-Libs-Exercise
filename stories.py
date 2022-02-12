@@ -43,3 +43,13 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+
+story_2 = Story(
+    ["person", "year", "place", "noun", "verb", "adjective"],
+    """{person} is having a party to celebrate New Year's Eve {year}.
+    Please show up at {place}, make sure to bring {noun}, and be ready to {verb}!
+    It's sure to be a {adjective} time!
+    """
+)
+
+stories = {"Story_1": story, "Story_2": story_2}

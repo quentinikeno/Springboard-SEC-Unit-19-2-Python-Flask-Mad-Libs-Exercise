@@ -1,0 +1,11 @@
+main {
+	margin: 3rem;
+}
+
+form div {
+	margin: 1rem auto;
+}
+
+form label {
+	font-weight: bold;
+}
